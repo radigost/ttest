@@ -3,7 +3,6 @@ package main;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import servlets.AllRequestsServlet;
 import servlets.Frontend;
 
 /**
@@ -15,7 +14,6 @@ import servlets.Frontend;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        AllRequestsServlet allRequestsServlet = new AllRequestsServlet();
         Frontend  frontend = new Frontend();
 
 
